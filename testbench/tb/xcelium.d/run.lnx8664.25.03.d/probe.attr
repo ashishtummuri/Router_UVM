@@ -1,0 +1,17 @@
+lwd_dir /mnt/ncsudrive/a/atummur/PROJECTS/uvma_training_1.2.6rev1/uvm/lab05_seq/tb/xcelium.d/worklib/top/sv/debug_db/top/../..
+snapshot_name worklib.top:sv
+cells 1
+hostname engr-ras-205.eos.ncsu.edu
+work_directory /mnt/ncsudrive/a/atummur/PROJECTS/uvma_training_1.2.6rev1/uvm/lab05_seq/tb
+autofetch 0
+persistent_sources 0
+cdslib ./xcelium.d/run.lnx8664.25.03.d/cds.lib
+cds_implicit_tmplib worklib
+hdlvar ./xcelium.d/run.lnx8664.25.03.d/hdl.var
+platform x86_64
+bits 64
+du-agent YES
+xprop 0
+automsie 0
+xmclone 0
+cds_libs /mnt/ncsudrive/a/atummur/PROJECTS/uvma_training_1.2.6rev1/uvm/lab05_seq/tb/xcelium.d/run.lnx8664.25.03.d/cds.lib /mnt/ncsudrive/a/atummur/PROJECTS/uvma_training_1.2.6rev1/uvm/lab05_seq/tb/xcelium.d/run.lnx8664.25.03.d/cdsrun.lib /mnt/apps/public/COE/cadence_apps/XCELIUM2503/tools/inca/files/cds.lib /mnt/apps/public/COE/cadence_apps/XCELIUM2503/tools/inca/files/cdsvhdl.lib /mnt/apps/public/COE/cadence_apps/XCELIUM2503/tools/inca/files/cdsvlog.lib /mnt/apps/public/COE/cadence_apps/XCELIUM2503/tools/transrecord/files/cds.lib /mnt/apps/public/COE/cadence_apps/XCELIUM2503/tools/affirma_ams/etc/connect_lib/cds.lib /mnt/apps/public/COE/cadence_apps/XCELIUM2503/tools/affirma_ams/etc/dms/cds.lib
