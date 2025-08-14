@@ -1,0 +1,59 @@
+csi-xmsim - CSI: Command line:
+xmsim
+    -f /mnt/ncsudrive/a/atummur/PROJECTS/uvma_training_1.2.6rev1/uvm/test_install/xcelium.d/run.lnx8664.24.09.d/engr-ras-203.eos.ncsu.edu_427737/xmsim.args
+        -INPUT @source /mnt/apps/public/COE/cadence_apps/XCELIUM2409/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+        -uvmhome /mnt/apps/public/COE/cadence_apps/XCELIUM2409/tools/methodology/UVM/CDNS-1.1d
+        -sv_lib /mnt/apps/public/COE/cadence_apps/XCELIUM2409/tools/methodology/UVM/CDNS-1.1d/additions/sv/lib/64bit/libuvmpli.so
+        -MESSAGES
+        -RUN
+        -SV_LIB /mnt/apps/public/COE/cadence_apps/XCELIUM2409/tools/methodology/UVM/CDNS-1.1d/additions/sv/lib/64bit/libuvmdpi.so
+        +EMGRLOG xrun.log
+        -XLSTIME 1754319054
+        -XLKEEP
+        -XLMODE ./xcelium.d/run.lnx8664.24.09.d
+        -RUNMODE
+        -CDSLIB ./xcelium.d/run.lnx8664.24.09.d/cds.lib
+        -HDLVAR ./xcelium.d/run.lnx8664.24.09.d/hdl.var
+        -XLNAME xrun
+        -XLVERSION TOOL:	xrun(64)	24.09-s004
+        -XLNAME ./xcelium.d/run.lnx8664.24.09.d/engr-ras-203.eos.ncsu.edu_427737
+    -CHECK_VERSION TOOL:	xrun(64)	24.09-s004
+    -LOG_FD 4
+    -LOG_FD_NAME xrun.log
+    -cmdnopsim
+    -runlock /mnt/ncsudrive/a/atummur/PROJECTS/uvma_training_1.2.6rev1/uvm/test_install/xcelium.d/run.lnx8664.24.09.d/.xmlib.lock
+    -runscratch /mnt/ncsudrive/a/atummur/PROJECTS/uvma_training_1.2.6rev1/uvm/test_install/xcelium.d/run.lnx8664.24.09.d/engr-ras-203.eos.ncsu.edu_427737
+Observed simulation time : 0 FS + 0
+
+csi-xmsim - CSI: *F,INTERR: INTERNAL EXCEPTION
+-----------------------------------------------------------------
+The tool has encountered an unexpected condition and must exit.
+Contact Cadence Design Systems customer support about this
+problem and provide enough information to help us reproduce it,
+including the logfile that contains this error message.
+  TOOL:	xmsim(64)	24.09-s004 (CL: 713810 )
+  HOSTNAME: engr-ras-203.eos.ncsu.edu
+  OPERATING SYSTEM: Linux 4.18.0-553.64.1.el8_10.x86_64 #1 SMP Wed Jul 23 16:42:14 EDT 2025 x86_64
+  MESSAGE: T(0): sv_seghandler - trapno -1 addr(0x67e708c)
+	Stream rts_xfer
+-----------------------------------------------------------------
+
+csi-xmsim - CSI: Cadence Support Investigation, recording details
+External Code in function: <unavailable> offset -65518
+External Code in function: <unavailable> offset -65534
+Simulator Snap Shot: gd (SSS_GD) in snapshot worklib.top:sv (SSS)
+External Code in function: <unavailable> offset -65512
+Simulator Snap Shot: root (SSS_ROOT) in snapshot worklib.top:sv (SSS)
+Intermediate File: data block (IF_BLK) in snapshot worklib.top:sv (SSS)
+Intermediate File: array of pointers (IF_PTRBLK) in snapshot worklib.top:sv (SSS)
+Intermediate File: root (IF_ROOT)
+Intermediate File: string (IF_STRING) in snapshot worklib.top:sv (SSS)
+	Decompile: /mnt/apps/public/COE/cadence_apps/XCELIUM2409/tools/lib/64bit/libsdi-verilog-nld
+Simulator Snap Shot: dynlib (SSS_DYNLIB) in snapshot worklib.top:sv (SSS)
+User Code in function: <unavailable> offset 1105832
+External Code in function: <unavailable> offset -65535
+External Code in function: <unavailable> offset -65536
+External Code in function: <unavailable> offset -65428
+External Code in function: <unavailable> offset -65500
+User Code in function: <unavailable> offset 47651025
+csi-xmsim - CSI: investigation complete took 0.027 secs, send this file to Cadence Support
